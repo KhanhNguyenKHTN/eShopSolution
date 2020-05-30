@@ -10,9 +10,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eShop.Data.EF
 {
-    public class EShopDBContext : IdentityDbContext<AppUser,AppRole,Guid>
+    public class EShopDbContext : IdentityDbContext<AppUser,AppRole,Guid>
     {
-        public EShopDBContext(DbContextOptions options) : base(options)
+        public EShopDbContext(DbContextOptions options) : base(options)
         {
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

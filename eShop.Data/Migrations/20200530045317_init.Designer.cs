@@ -9,7 +9,7 @@ using eShop.Data.EF;
 
 namespace eShop.Data.Migrations
 {
-    [DbContext(typeof(EShopDBContext))]
+    [DbContext(typeof(EShopDbContext))]
     [Migration("20200530045317_init")]
     partial class init
     {

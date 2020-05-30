@@ -82,3 +82,14 @@ C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\
 C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\eShop.Utilities.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\eShop.ViewModel.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\eShop.Utilities.pdb
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\eShop.ViewModel.pdb
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nguye\Desktop\TrumTron\eShopSolution\eShop.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

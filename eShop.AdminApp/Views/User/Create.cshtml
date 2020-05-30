@@ -1,0 +1,77 @@
+﻿@model eShop.ViewModel.System.Users.RegisterRequest
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style="margin:20px 30%;">
+    <div>
+
+        <div>
+            <h1>Tạo mới tài khoản</h1>
+        </div>
+        <div>
+            <a asp-action="Index"><i class="fas fa-chevron-left"></i> Back to List</a>
+        </div>
+        <hr />
+        <div>
+            <div class="col-md-12">
+                <form asp-action="Create" class="user">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <input asp-for="FirstName" class="form-control form-control-user" placeholder="Họ" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input asp-for="LastName" class="form-control form-control-user" placeholder="Tên" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <input asp-for="Email" class="form-control form-control-user" placeholder="Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <input asp-for="PhoneNumber" class="form-control form-control-user" placeholder="Số điện thoại" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input asp-for="Dob" class="form-control form-control-user" placeholder="Ngày Sinh" />
+                            <span asp-validation-for="Dob" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input asp-for="UserName" class="form-control form-control-user" placeholder="Tên đăng nhập" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <input asp-for="Password" class="form-control form-control-user" placeholder="Mật khẩu" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input asp-for="ConfirmPassword" class="form-control form-control-user" placeholder="Nhập lại mật khẩu" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Tạo tài khoản" class="btn btn-primary btn-user btn-block" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>
